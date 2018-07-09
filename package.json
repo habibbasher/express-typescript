@@ -4,9 +4,10 @@
   "description": "This is a base structure and configuration for node with type script ",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon ./build/server.js",
+    "server": "tsc && nodemon ./build/server.js",
     "start": "node ./build/server.js",
     "dev": "concurrently --kill-others \"tsc -w -p .\" \"npm run server\"",
+    "ts:watch": "tsc -w",
     "test": "test"
   },
   "repository": {

@@ -1,0 +1,5 @@
+### These are some packages that can be installed during project setup but install it when it is necessary.
+
+### npm i --save async bcrypt-nodejs bluebird body-parser compression connect-mongo cookie-parser cors express express-flash express-session express-validator jsonwebtoken lodash log4js log4js-node-mongodb mongoose mongoose-timestamp morgan multer nodemailer passport request request-promise socket.io helmet lusca
+
+### npm i --save-dev @types/async @types/bcrypt-nodejs @types/bluebird @types/body-parser @types/chai @types/chai-http @types/compression @types/connect-mongo @types/cookie-parser @types/cors @types/express @types/express-session @types/jest @types/jquery @types/lodash @types/lusca @types/mongodb @types/mongoose @types/morgan @types/multer @types/node @types/nodemailer @types/passport @types/request @types/shelljs @types/socket.io chai chai-http concurrently jest nodemon shelljs ts-jest ts-node tslint typescript
